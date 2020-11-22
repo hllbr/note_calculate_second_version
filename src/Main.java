@@ -63,10 +63,9 @@ public class Main {
         }else if(result>100 || result<0){
             System.out.println("bir öğrencinin puanı 0'dan düşük yada 100'den büyük olamaz");
             System.out.println("toplam puanınız :"+result);
-
-        }
-             else{
-                 System.out.println("HATALI YADA YANLIŞ BİR TUŞLAMA YAPTINIZ...!!!");
+            System.out.println("toplam puanınız :"+result);
+        }else{
+              System.out.println("HATALI YADA YANLIŞ BİR TUŞLAMA YAPTINIZ...!!!");
              }
         
     }
